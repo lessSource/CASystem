@@ -1,9 +1,20 @@
-<script setup lang="ts">
-import LoginView from "./components/base/login/LoginController.vue";
-</script>
 <template>
-  <div id="app">
-    <LoginView />
-  </div>
-  
+  <router-view />
 </template>
+
+<script setup lang="ts"></script>
+
+<style lang="scss">
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+</style>
+

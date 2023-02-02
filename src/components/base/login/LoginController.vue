@@ -54,7 +54,6 @@ const form = reactive({
 // 登录
 async function toLogin() {
   router.push("/main");
-  // router.push("/main");
 }
 </script>
 

@@ -4,11 +4,11 @@ import LoginView from "../components/base/login/LoginController.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: "/login",
-    //   name: "home",
-    //   component: LoginView,
-    // },
+    {
+      path: "/",
+      name: "home",
+      component: LoginView,
+    },
     {
       path: "/main",
       name: "main",
